@@ -30,6 +30,6 @@ axios
 	  links.push(link);
 	}
 	});
-	
+	console.log('Extracted Data:');
 	console.log(`Publication Date: ${publicationDate}\nBidding Date: ${biddingDate}\nObject: ${object}\nLinks: ${links.join('\n')}`);
 })
